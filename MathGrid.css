@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Buttons and equation*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 30px;
+}
+
+
+/* the generate button */
+.centered-button{ /* . represents class */
+    display: inline-block;
+    background: rgb(100, 255, 100);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
+
+}
+
+.centered-button:hover{
+    background-color: rgb(42, 212, 42);
+}
+
+#equationContainer{ /* # represents id */
+    color: black;
+    text-align: center;
+    font-size: 75px;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+.answerForm{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.answerForm label{
+    display: block;
+    margin: 10px;
+}
+
+.answerForm input{
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.answerForm button{
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+
+.answerForm button:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+#feedback{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(18, 60px);
+    gap: 15px;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+.grid-container div{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.shaded{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+
+/* iframe border */
+iframe {
+    border: none;
+    outline: none;
+}
+
+
+
